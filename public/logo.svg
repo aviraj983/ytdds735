@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E553"/>
+      <stop offset="50%" stop-color="#0085CF"/>
+      <stop offset="100%" stop-color="#01C5C9"/>
+    </linearGradient>
+    <filter id="logoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#00E553" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Squircle Base -->
+  <rect x="32" y="32" width="448" height="448" rx="120" fill="url(#logoGrad)" filter="url(#logoGlow)"/>
+
+  <!-- Subtle Play Triangle in background -->
+  <path d="M210 150 C210 138 223 131 233 138 L365 242 C375 249 375 263 365 270 L233 374 C223 381 210 374 210 362 Z" fill="#FFFFFF" fill-opacity="0.2"/>
+
+  <!-- Bold Download Arrow -->
+  <path d="M256 130 V310" stroke="#FFFFFF" stroke-width="44" stroke-linecap="round"/>
+  <path d="M172 236 L256 320 L340 236" stroke="#FFFFFF" stroke-width="44" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M160 380 H352" stroke="#FFFFFF" stroke-width="44" stroke-linecap="round"/>
+</svg>

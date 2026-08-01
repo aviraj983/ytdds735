@@ -1,0 +1,19 @@
+{
+  "name": "tubevault-yt-downloader",
+  "version": "1.0.0",
+  "description": "TubeVault - Free YouTube Video Downloader with enhanced UI and SEO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["youtube", "downloader", "video", "mp3", "mp4"],
+  "author": "TubeVault",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
